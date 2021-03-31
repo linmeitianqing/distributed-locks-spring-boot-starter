@@ -1,0 +1,34 @@
+{
+  "properties": [
+    {
+      "name": "handler.lockType",
+      "type": "java.lang.String",
+      "defaultValue": "redis",
+      "description": "分布式锁类型"
+    }
+  ],
+  "hints": [
+    {
+      "name": "handler.lockType",
+      "values": [
+        {
+          "value": "redis",
+          "description": "Redis分布式锁的实现"
+        },
+        {
+          "value": "mysql",
+          "description": "MySQL分布式锁的实现"
+        },
+        {
+          "value": "zk",
+          "description": "ZooKeeper分布式锁的实现"
+        }
+      ],
+      "providers": [
+        {
+          "name": "any"
+        }
+      ]
+    }
+  ]
+}

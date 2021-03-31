@@ -1,0 +1,12 @@
+logs
+build
+target
+.idea
+.idea_modules
+.classpath
+.settings
+.project
+.springBeans
+.DS_Store
+
+*.iml
