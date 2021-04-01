@@ -6,7 +6,7 @@
 
     <groupId>com.shangsw</groupId>
     <artifactId>distributed-locks-spring-boot-starter</artifactId>
-    <version>1.0.0-RELEASE</version>
+    <version>1.0.0</version>
     <description>分布式锁实现</description>
 
     <parent>
