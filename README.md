@@ -4,7 +4,7 @@ distributed-locks-spring-boot-starter是一个分布式锁实现，目前只支�
 而MySQL、ZooKeeper等一些实现方式也在后续的版本中体现。
 
 ## Quick start
-**1、在项目中引入相关的JAR包**
+### 1、在项目中引入相关的JAR包
 
 示例代码如下：
 ```
@@ -14,7 +14,7 @@ distributed-locks-spring-boot-starter是一个分布式锁实现，目前只支�
     <version>1.0.0</version>
 </dependency>
 ``` 
-**2、配置**
+### 2、配置
 
 主要是配置使用哪种实现。目前只支持Redis的实现，默认就是Redis的实现，可以配置。后续的规划中，
 考虑其他方式的实现，比如MySQL、ZooKeeper的实现，可以通过配置文件指定使用分布式锁的方式。配置如下：
@@ -32,7 +32,7 @@ handler:
 ``` 
 
 
-**3、使用**
+### 3、使用
 
 使用分布式锁很简单，只需要在方法和对应的参数上加上注解即可，如下示例：
 ``` 
